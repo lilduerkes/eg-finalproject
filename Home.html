@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Drink Selector</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #111;
+      color: #fff;
+      margin: 0;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+    .btn-group {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .drink-btn {
+      background: #333;
+      border: 2px solid #fff;
+      padding: 1rem 2rem;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .drink-btn:hover {
+      background: #fff;
+      color: #111;
+    }
+  </style>
+</head>
+<body>
+  <h1>Choose Your Drink</h1>
+  <div class="btn-group">
+    <button class="drink-btn" onclick="location.href='rum.html?type=Rum'">Rum</button>
+    <button class="drink-btn" onclick="location.href='Gin.html?type=Gin'">Gin</button>
+    <button class="drink-btn" onclick="location.href='whiskey.html?type=whiskey'">Whiskey</button>
+    <button class="drink-btn" onclick="location.href='tequila.html?type=tequila'">Tequila</button>
+    <button class="drink-btn" onclick="location.href='Brandy.html?type=Brandy'">Brandy</button>
+    <button class="drink-btn" onclick="location.href='vodka.html?type=Vodka'">Vodka</button>
+  </div>
+</body>
+</html>
