@@ -1,5 +1,5 @@
 :root {
-  --dark: #13111f;
+  --dark: #2d2707;
   --midark: #515153;
   --dim: #494848;
   --color: #e5990c;
@@ -16,9 +16,6 @@ body {
   height: 100vh;
   background-color: var(--milight);
 }
-/*------------------
---  Nav Styles  --
-------------------*/
 .topnav { 
   background-color: var(--dark);
   padding: 1em 4rem;
@@ -58,11 +55,11 @@ a:hover {
   cursor: pointer; 
 }
 .nav-item.trigram {
-  display: none; /*-- hides trigram (hamburger menu button) by default --*/
+  display: none; 
 }
-/*-- Styles for slideshow --*/
+
 .slideshow {
-  position: relative; /*-- this allows children to be position absolutely --*/
+  position: relative;
   padding: 0;
 }
 .slide {
@@ -97,33 +94,33 @@ a:hover {
   margin-top: 1.5rem;
 }
 .prev {
-  cursor: pointer; /*-- changes hover cursor to the hand --*/
+  cursor: pointer; 
   padding: 5rem 3rem;
-  position: absolute; /*-- positions arrows absolutely--*/
-  top: 50%; /*-- positions arrows half the height of parent from top --*/
+  position: absolute; 
+  top: 50%; 
   left: 0rem;
   transform: translateY(-50%);
-  width: auto; /*-- matches width of parent --*/
+  width: auto; 
   font-size: 200%;
   transition: var(--std);
-  border-radius: 0 2rem 2rem 0; /*-- slightly rounds inside borders --*/
-  user-select: none; /*-- prevents users from selecting buttons --*/
+  border-radius: 0 2rem 2rem 0; 
+  user-select: none; 
 }
 .next {
-  right: 0rem; /*-- positions next arrow hard right --*/
-  border-radius: 2rem 0 0 2rem; /*-- rounds the outside borders --*/
-  cursor: pointer; /*-- changes hover cursor to the hand --*/
+  right: 0rem; 
+  border-radius: 2rem 0 0 2rem; 
+  cursor: pointer; 
   padding: 5rem 3rem;
-  position: absolute; /*-- positions arrows absolutely--*/
-  top: 50%; /*-- positions arrows half the height of parent from top --*/
+  position: absolute;
+  top: 50%; 
   transform: translateY(-50%);
-  width: auto; /*-- matches width of parent --*/
+  width: auto; 
   font-size: 250%;
   transition: var(--std);
-  user-select: none; /*-- prevents users from selecting buttons --*/
+  user-select: none; 
 }
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.6); /*-- gives a background for contrast on hover --*/
+  background-color: rgb(234, 225, 103); 
 }
 button {
   background: none;
